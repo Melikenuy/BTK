@@ -1,2 +1,9 @@
 #kullanıcıya sürekli ismi sorulsun
-isim=input("isminiz: ")
+while True:
+    isim= input ("isminiz: ")
+    if isim=="Q" or isim=="q":
+        break
+
+isim=""
+while isim!="q":
+    isim =input("isminiz")
